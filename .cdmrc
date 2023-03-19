@@ -1,4 +1,4 @@
-terminals: ['npm install && npm run dev']
-tabs: ['src/App.vue', 'src/components/HelloWorld.vue]
-playground-view: terminal-editor-browser
+terminals: ["npm install && npm run dev"]
+tabs: ["src/App.vue", "src/components/HelloWorld.vue"]
+playground-view: "terminal-editor-browser"
 live-reload-browser: false
