@@ -1,2 +1,2 @@
 terminals: ['npm install && npm run dev']
-tabs: ['']
+tabs: ['src/App.vue', 'src/components/HelloWorld.vue]
