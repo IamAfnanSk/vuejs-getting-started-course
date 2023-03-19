@@ -1,0 +1,2 @@
+terminals: ['npm install && npm run dev']
+tabs: ['']
