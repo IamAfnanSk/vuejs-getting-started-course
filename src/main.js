@@ -1,5 +1,5 @@
-import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+// HINT: Use this file as your root app file
 
-createApp(App).mount('#app')
+// HINT 2: You have to create an instance
+// Pass root component to createApp function
+// And mount it to div with id 'app'
