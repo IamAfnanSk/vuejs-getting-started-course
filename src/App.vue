@@ -10,6 +10,14 @@
 </template>
 
 <script setup>
+const props = defineProps({
+  books: {
+    type: [String],
+    required: false,
+    default: [],
+  },
+});
+
 // HINT: Use 'ref' function of vue
 
 function inc() {
