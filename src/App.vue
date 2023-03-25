@@ -1,6 +1,6 @@
 <template>
-  <button @click="inc">+</button>
-  <button @click="dec">-</button>
+  <button @click="inc" id="inc">+</button>
+  <button @click="dec" id="dec">-</button>
 
   <!-- Add count below -->
   <p id="ref">{{}}</p>
