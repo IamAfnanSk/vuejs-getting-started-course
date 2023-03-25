@@ -10,8 +10,9 @@
 </template>
 
 <script setup>
-import { defineProps } from "vue";
+import { toRef } from "vue";
 
+// Ignore code below
 const props = defineProps({
   books: {
     type: Array,
@@ -20,7 +21,10 @@ const props = defineProps({
   },
 });
 
-// HINT: Use 'ref' function of vue
+const { books } = toRef(props);
+// Ignore code above
+
+// HINT: Use 'ref' function of vue to create a ref for count
 
 function inc() {
   // increment your ref here
@@ -29,5 +33,5 @@ function dec() {
   // decrement your ref here
 }
 
-// property to use in computed : props.books
+// name of ref to use in computed:- books
 </script>
