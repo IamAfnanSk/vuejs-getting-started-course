@@ -10,7 +10,7 @@
 </template>
 
 <script setup>
-import { toRef, defineProps } from "vue";
+import { toRefs } from "vue";
 
 // Ignore code below
 const props = defineProps({
@@ -21,7 +21,7 @@ const props = defineProps({
   },
 });
 
-const { books } = toRef(props);
+const { books } = toRefs(props);
 // Ignore code above
 
 // HINT: Use 'ref' function of vue to create a ref for count
