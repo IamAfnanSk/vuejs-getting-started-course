@@ -18,7 +18,7 @@
 </template>
 
 <script setup>
-import { toRef } from "vue";
+import { toRefs } from "vue";
 
 // ignore code below
 const props = defineProps({
@@ -46,5 +46,5 @@ const props = defineProps({
 });
 // ignore code above
 
-const { items } = toRef(props);
+const { items } = toRefs(props);
 </script>
