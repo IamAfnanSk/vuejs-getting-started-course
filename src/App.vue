@@ -14,7 +14,7 @@ import { defineProps } from "vue";
 
 const props = defineProps({
   books: {
-    type: [String],
+    type: Array,
     required: false,
     default: [],
   },
