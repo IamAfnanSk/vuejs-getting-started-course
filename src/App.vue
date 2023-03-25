@@ -2,14 +2,14 @@
   <!-- Add event listener using 
     templating syntax for Vue.js 
     and update ref's value -->
-  <button>Awesome h1</button>
-  <button>Awesome p</button>
+  <button id="h1-btn">Awesome h1</button>
+  <button id="p-btn">Awesome p</button>
 
   <!-- Make content of this h1 dynamic -->
-  <h1></h1>
+  <h1 id="h1"></h1>
 
   <!-- Make content of this p dynamic -->
-  <p></p>
+  <p id="p"></p>
 
   <!-- NOTE: don't add any other html element in template -->
 </template>
