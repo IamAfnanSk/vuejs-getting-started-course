@@ -10,7 +10,7 @@
 </template>
 
 <script setup>
-import { toRef } from "vue";
+import { toRef, defineProps } from "vue";
 
 // Ignore code below
 const props = defineProps({
