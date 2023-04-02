@@ -6,7 +6,6 @@
 
 <script setup>
 import { ref, toRefs } from "vue";
-import axios from "axios";
 
 const props = defineProps({
   postId: {
