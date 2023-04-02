@@ -6,6 +6,7 @@
 
 <script setup>
 import { ref, toRefs } from "vue";
+import fetch from "cross-fetch";
 
 const props = defineProps({
   postId: {
