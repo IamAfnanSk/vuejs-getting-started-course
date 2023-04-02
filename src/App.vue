@@ -11,6 +11,7 @@ const props = defineProps({
   postId: {
     type: Number,
     required: false,
+    // DONT CHANGE DEFAULT VALUE
     default: 5,
   },
 });
