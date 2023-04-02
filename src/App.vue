@@ -5,11 +5,19 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref, toRefs } from "vue";
+
+const props = defineProps({
+  postId: {
+    type: Number,
+    required: false,
+    default: 5,
+  },
+});
+
+const { postId } = toRefs(props);
 
 const post = ref(null);
-
-const postId = ref(5);
 
 // USE THIS URL
 // https://jsonplaceholder.typicode.com/posts/1 <- replace 1 with actual post id ref value
